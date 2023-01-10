@@ -4,7 +4,7 @@ export default function Index() {
       <div className="w-screen h-full min-h-screen  bg-gradient-to-r from-gray-400 flex flex-col items-center justify-around relative gap-4">
         <div className=" w-full h-1/5  flex gap-4 items-center">
           <div className=" w-1/5 h-full ">
-            <div className=" w-50 h-50 rounded-full  mt-0 flex items-center justify-center gap-4">
+            <div className="relative w-50 h-50 rounded-full  mt-0 flex items-center justify-center gap-4">
               <div className=" w-10 h-10 bg-rose-400  rounded-full mt-0 flex items-center justify-center ">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
