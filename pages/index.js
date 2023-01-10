@@ -1,10 +1,10 @@
 export default function Index() {
   return (
     <>
-      <div className="w-screen h-screen  bg-gradient-to-r from-gray-400 flex flex-col items-center justify-around relative gap-4">
+      <div className="w-screen h-full min-h-screen  bg-gradient-to-r from-gray-400 flex flex-col items-center justify-around relative gap-4">
         <div className=" w-full h-1/5  flex gap-4 items-center">
           <div className=" w-1/5 h-full ">
-            <div className=" w-50 h-50 rounded-full  mt-14 flex items-center justify-center gap-4">
+            <div className=" w-50 h-50 rounded-full  mt-0 flex items-center justify-center gap-4">
               <div className=" w-10 h-10 bg-rose-400  rounded-full mt-0 flex items-center justify-center ">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -60,7 +60,7 @@ export default function Index() {
               </div>
             </div>
           </div>
-          <div className="relative w-1/5 h-10 bg-rose-400  rounded-full  flex items-center justify-center mr-14 ">
+          <div className="relative w-1/5 h-10 bg-rose-400  rounded-full  flex items-center justify-center mt-0 mr-14 ">
             <a href="https://taxreport.mta.gov.mn/#/signin" target="_blank">
               <h1 className=" font-bold text-slate-50"> Commit</h1>
               <div className="w-50 h-50  mt-0 flex items-center"></div>
